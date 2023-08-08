@@ -1,10 +1,5 @@
-const SuperHero = require('./super-hero');
+const data = require('./data');
 
-const batman = new SuperHero("Batman");
-console.log(batman.getName());
-
-batman.setName('Bruce wayne');
-console.log(batman.getName());
-
-const superman = new SuperHero("Superman");
-console.log(superman.getName());
+console.log(data);
+console.log(data.name);
+console.log(data.address.city);
